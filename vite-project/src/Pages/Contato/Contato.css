@@ -100,8 +100,19 @@
 }
 
 .btn.fill {
-    background-color: #9ee9e5; /* Cor laranja */
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #9f9ee9; /* Cor laranja */
     color: #ffffff; /* Cor branca */
+    transition: transform 0.3s ease; 
+}
+.btn.fill:hover{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f93434; /* Cor laranja */
+    color: #ffffff; /* Cor branca */
+    transform: scale(1.2); /* Aumenta o tamanho do botão em 10% ao passar o mouse sobre ele */
+
 }
 
 

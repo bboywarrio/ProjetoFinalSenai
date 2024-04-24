@@ -45,6 +45,7 @@ ul{
     padding: 0;
 }
 .footer-menu-item{
+    font-weight: 600;
     display: block;
     margin: 20px;
 }

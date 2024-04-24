@@ -42,7 +42,21 @@ button{
     cursor: pointer;
 
 }
-
+.btn-download{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #BF683D; /* Cor laranja */
+    color: #ffffff; /* Cor branca */
+    transition: transform 0.3s ease; 
+    
+}
+.btn-download:hover{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f93434; /* Cor laranja */
+    color: #ffffff; /* Cor branca */
+    transform: scale(1.2); /* Aumenta o tamanho do botão em 10% ao passar o mouse sobre ele */
+}
 .app-container {
     display: flex;
     background-color: #C4ECE9;

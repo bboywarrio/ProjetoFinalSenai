@@ -19,7 +19,9 @@ function Footer() {
                         <p className="mt-1 max-wd"> Prezamos pela confiança e segurança dos nossos clientes. Respeitamos sua privacidade e garantimos que as informações fornecidas durante o cadastro e compra são tratadas com máxima confidencialidade.</p>
                     </div>
                     <div className="col col-1  ">
+                        
                         <ul className="mt-1">
+                        <h4>Termos e Política</h4>
                             <li className="footer-menu-item"><a href="/trocas">Trocas e devoluções</a></li>
                             <li className="footer-menu-item"><a href="/politica-de-envios">Política de envios</a></li>
                             <li className="footer-menu-item"><a href="/contato">Contato</a></li>
@@ -28,8 +30,8 @@ function Footer() {
                     <div className="col col-1 acard">
                         <h4>Entre em contato</h4>
                         <ul>
-                            <li className="footer-menu-item"><a href="https://wa.me/5521416125142?text=Mensagem+teste+para+o+projeto+SENAI" >21-9406549898</a></li>
-                            <li className="footer-menu-item"><a href="mailto:contatohachipet@gmail.com">contatohachipet@gmail.com</a></li>
+                            <li className="footer-menu-item">📞 <a href="https://wa.me/5521416125142?text=Mensagem+teste+para+o+projeto+SENAI" >21-9406549898</a> </li>
+                            <li className="footer-menu-item">📩 <a href="mailto:contatohachipet@gmail.com">contatohachipet@gmail.com</a> </li>
                         </ul>
                     </div>
                 </div>

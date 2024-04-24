@@ -4,6 +4,7 @@ import dog from '../../assets/img/4.png'
 import us1 from '../../assets/img/u1.png'
 import us2 from '../../assets/img/u2.png'
 import us3 from '../../assets/img/u3.png'
+import '../../assets/AppPet.txt'
 import './aplicativo.css'
 
 function Aplicativo () 
@@ -38,7 +39,9 @@ function Aplicativo ()
             </div>
             
             <div className='buton'>
-                <button>BAIXE AGORA!</button>
+            <a href="../../assets/AppPet.txt" download="AppPet.txt" class="download-link">
+            <button class="btn-download">BAIXE AGORA!</button></a>
+ 
             </div>
            
                
@@ -97,7 +100,8 @@ function Aplicativo ()
                 </p>  
                 <div className='buton2'>
 
-                <button>BAIXE AGORA!</button>
+                <a href="../../assets/AppPet.txt" download="AppPet.txt" class="download-link">
+                <button class="btn-download">BAIXE AGORA!</button></a>
 
                 </div> 
 
@@ -144,7 +148,8 @@ function Aplicativo ()
                 
                 <div className='buton3'>
 
-                <button>BAIXE AGORA!</button>
+                <a href="../../assets/AppPet.txt" download="AppPet.txt" class="download-link">
+                <button class="btn-download">BAIXE AGORA!</button></a>
 
                 </div> 
 

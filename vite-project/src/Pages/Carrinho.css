@@ -31,10 +31,12 @@
     padding: 30px;
 }
 .cart-item{
-    border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 120hv;
+    border-radius: 18px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
     background-color: #f5f5f5;
     display: flex;
+    padding: 10px;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
@@ -43,6 +45,7 @@
     display: flex; /* Adiciona flexbox */
     justify-content: space-between; /* Alinha os itens lado a lado */
     /* Restante do seu código permanece igual */
+    flex-wrap: wrap;
 }
 
 /* Restante do seu código permanece igual */
@@ -72,17 +75,20 @@
     font-size: 1rem; /* Tamanho do texto */
     letter-spacing: 1px;
     cursor: pointer;
-    background-color: #c83b3b;
+    background-color: #e38556;
     color: #fff;
     transition: background-color 0.3s ease, transform 0.3s ease; /* Adiciona transição */
     bottom: 20px; /* Distância do fundo */
     left: 50%;
+    transform: scale(1.1);
 
 }
 
-.btn-adicionar-carrinho:hover {
-    background-color: #ffc107; /* Cor dourada */
-    transform: scale(0.9); /* Aumenta um pouco o tamanho no hover */
+.btn-adicionar-produtos:hover {
+    background-color: #E5F7F5; /* Cor dourada */
+    font-weight: b;
+    color: gold;
+    transform: scale(1.17); /* Aumenta um pouco o tamanho no hover */
 }
 
 /* Estilo dos botões + e - */
@@ -96,12 +102,13 @@
     border: none;
     padding: 8px 16px;
     border-radius: 25%; /* Botões redondos */
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     cursor: pointer;
     background-color: #ac0f0f;
     color: #fff;
     transition: background-color 0.3s ease, transform 0.3s ease; /* Adiciona transição */
+    transform: scale(1.1);
 }
 
 .button-wrapper button:hover {
@@ -126,7 +133,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinha o texto à direita */
+    align-items:start; /* Alinha o texto à direita */
     margin-top: 20px; /* Espaçamento superior */
 }
 
@@ -140,27 +147,20 @@
 .button-wrapper button.increase-button,
 .button-wrapper button.decrease-button {
     border: none;
-    padding: 8px 16px;
+    width: 70px;
+    height: auto;
+    padding: 2px 1px;
     margin: 0 5px;
     font-size: 1.5rem;
     letter-spacing: 5px;
     cursor: pointer;
     color: #fff; /* Cor do texto */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Adiciona transição */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Adiciona transição */background-color:#a8a3a3;
 }
-
-.button-wrapper button.increase-button {
-    background-color: #73c646; /* Cor vermelha */
-}
-
-.button-wrapper button.decrease-button {
-    background-color: #bf3d3d; /* Cor vermelha */
-}
-
 .button-wrapper button.increase-button:hover,
 .button-wrapper button.decrease-button:hover {
     background-color: #f9be0d; /* Cor dourada */
-    transform: scale(1.1); /* Aumenta um pouco o tamanho no hover */
+    transform: scale(1.16); /* Aumenta um pouco o tamanho no hover */
 }
 
 .button-wrapper button.increase-button:active,
@@ -170,9 +170,11 @@
 
 /* Estilo do botão Excluir */
 .delete-button button.remove-button {
-    
-    background-color: #f90d0d;
+    width: 100px;
+    transform: scale(1.08);
+    background-color: #f9874e;
 }
 .delete-button button.remove-button:hover {
-    background-color: #f9be0d;
+    background-color: #f90d0d;
+    transform: scale(0.9);
 }

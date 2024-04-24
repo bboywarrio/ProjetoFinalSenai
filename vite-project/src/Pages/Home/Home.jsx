@@ -23,38 +23,42 @@ function home() {
             </div>
         </div>
     </section>
-    
-    <section className='home-featured welcome'>
+    <section className='home-featured'>
         <div className='who-we-are'>
                 <div className='max-wd2'>
-                    <h3>Quem somos</h3>
-                    <p>No Hachi Pet, somos uma equipe apaixonada por animais de estimação, dedicada a fornecer as melhores informações, produtos e serviços para fortalecer o vínculo entre humanos e seus bichinhos queridos. Nossa jornada começou com uma simples missão: tornar a vida dos animais de estimação mais feliz e saudável, e desde então, temos trabalhado incansavelmente para alcançar esse objetivo. Com especialistas em cuidados veterinários, amantes de animais e entusiastas da tecnologia, estamos aqui para ajudar você e seu peludo a desfrutarem de uma vida cheia de alegria, saúde e amor.</p>
+                    <h3 className='home-sec-title'> Quem somos</h3>
+                    <p className='home-subtitle'>No Hachi Pet, somos uma equipe apaixonada por animais de estimação, dedicada a fornecer as melhores informações, produtos e serviços para fortalecer o vínculo entre humanos e seus bichinhos queridos. Nossa jornada começou com uma simples missão: tornar a vida dos animais de estimação mais feliz e saudável, e desde então, temos trabalhado incansavelmente para alcançar esse objetivo. Com especialistas em cuidados veterinários, amantes de animais e entusiastas da tecnologia, estamos aqui para ajudar você e seu peludo a desfrutarem de uma vida cheia de alegria, saúde e amor.</p>
                 </div>
                 <div>
                     <img src={cao2} className='img-dog' />
                 </div>
         </div>
     </section>
+    <section>
+        <div>
+            
+        </div>
+    </section>
     <section className='products-best-selling-section'>
-        <h3>Produtos mais vendidos</h3>
+        <h3 className='home-sec-title'>Produtos mais vendidos</h3>
             <div className='best-selling-products' >
                 <div className='best-selling-product'>
                     <div>
-                        <div><a href="/produtos"><img src="https://i.imgur.com/xPIb5Fg.jpg" alt="" /></a></div>
+                        <div><a href="/produtos"><img src="https://i.imgur.com/xPIb5Fg.jpg" className='home-img' alt="" /></a></div>
                     </div>
-                    <button> <a href="/produtos">Confira</a></button>
+                    <button> <a href="/produtos" className='home-button'>Confira</a></button>
                 </div>
                 <div className='best-selling-product'>
                     <div>
-                        <div><a href="/produtos"><img src="https://i.imgur.com/OMWvkDb.jpeg" alt="" /></a></div>
+                        <div><a href="/produtos"><img src="https://i.imgur.com/OMWvkDb.jpeg" className='home-img' alt="" /></a></div>
                     </div>
-                    <button> <a href="/produtos">Confira</a></button>
+                    <button> <a href="/produtos" className='home-button'>Confira</a></button>
                 </div>
                 <div className='best-selling-product'>
                     <div>
-                        <div><a href="/produtos"><img src="https://i.imgur.com/50Ns7Vp.jpeg" alt="" /></a></div>
+                        <div><a href="/produtos"><img src="https://i.imgur.com/50Ns7Vp.jpeg" className='home-img' alt="" /></a></div>
                     </div>
-                    <button> <a href="/produtos">Confira</a></button>
+                    <button> <a href="/produtos" className='home-button'>Confira</a></button>
                 </div>
             </div>
     </section>
