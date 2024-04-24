@@ -16,19 +16,7 @@ header {
     background-color: #FFE2D3;
     position: sticky;
 }
-.fix{
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: #fff; /* Cor do texto do seu header */
-   
-    text-align: center; /* Centraliza o texto do seu header */
-    z-index: 999;
-    
 
-}
 
 .log {
     padding-top: 10px;

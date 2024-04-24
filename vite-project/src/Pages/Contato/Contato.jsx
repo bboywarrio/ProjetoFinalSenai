@@ -3,27 +3,9 @@ import React from 'react';
 import './Contato.css';
 function Contato() {
     return(<>
-    <section className="welcome">
-                <div className="feacture_enterprise">
-                    <h2>Entre em Contato</h2>
-                    {/* Adicione o ícone do envelope usando a classe do Font Awesome */}
-                    <i className="fas fa-envelope" style={{ color: '#007bff' }}></i>&ensp;
-                    <a href="mailto:svsmiguel@gmail.com" className="contact-link">meuemailteste@gmail.com</a>
-                    <br /> <br />
-
-                    <i className="fab fa-whatsapp" style={{ color: 'green' }}></i>&ensp;
-                    <a href="https://wa.me/5511515912641?text=Mensagem+teste+para+o+projeto+SENAI" className="whatsapp-link">
-                        <span style={{ color: 'red' }}>Nosso WhatsApp para contato! </span>
-                        11-515912641
-                    </a>
-                    <br /> <br />
-                    <p>Estamos aqui para ajudar. Envie-nos uma mensagem!</p>
-                </div>
-            </section>
-
-            <section className='featured_home welcome'>
+            <section className='featured_home welcome form-contact'>
                 <div className='featured_container'>
-                    <h2>Formulário de Contato</h2>
+                    <h2 style={{padding:"50px"}}>Formulário de Contato</h2>
                     <form className="contact-form">
                         <div className="form-group">
                             <label htmlFor="name">Nome:</label>

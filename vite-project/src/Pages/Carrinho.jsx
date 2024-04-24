@@ -46,7 +46,7 @@ function Carrinho() {
             ))}
             <div className="total-carrinho">
               <p>Total do Carrinho: R$ {calcularTotal()}</p>
-              <Link to="/produtos" className="btn-adicionar-produtos">Adicionar ao Carrinho</Link>
+              <Link to="/produtos" className="btn-adicionar-produtos">Adicionar Mais Produtos ao Carrinho</Link>
             </div>
           </div>
         )}

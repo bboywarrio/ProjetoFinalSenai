@@ -6,34 +6,31 @@ import Pet3 from '../assets/img/GDA-GATO-CERTO.jpg'
 
 function Carosel() {
   return (
-    <div style={{ border: '30px solid #C4ECE9'}}>
+    <div>
     <Carousel data-bs-theme="dark">
       <Carousel.Item>
-        <a href=""><img
+        <a href="/produtos"><img
           className="d-block w-100"
           src={Pet1}
           alt="First slide"
-          style={{ height: '400px'}}
         /></a>
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <a href=""><img
+      <a href="/produtos"><img
           className="d-block w-100"
           src={Pet2}
           alt="First slide"
-          style={{ height: '400px'}}
         /></a>
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <a href=""><img
+      <a href="/produtos"><img
           className="d-block w-100"
           src={Pet3}
           alt="First slide"
-          style={{ height: '400px'}}
         /></a>
         <Carousel.Caption>
           

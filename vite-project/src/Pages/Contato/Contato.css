@@ -3,7 +3,7 @@
 }
 
 .whatsapp-link:hover {
-    color: #2db84c; /* Altera a cor do link do WhatsApp quando hover */
+    color: #C4ECE9; /* Altera a cor do link do WhatsApp quando hover */
 }
 
 .feacture_enterprise i {
@@ -16,7 +16,9 @@
     background-color: transparent; /* Fundo transparente */
     padding: 20px; /* Espaçamento interno */
 }
-
+.form-contact{
+    margin: 100px 0 100px 0;
+}
 .featured_container {
     max-width: 800px; /* Largura máxima do conteúdo */
     margin: 0 auto; /* Centralizar horizontalmente */
@@ -24,11 +26,10 @@
 
 .contact-form {
     text-align: center;
-    background-color: #2cb3aa; /* Cor de fundo */
+    background-color: #9ee9e5; /* Cor de fundo */
     padding: 20px; /* Espaçamento interno */
     border-radius: 10px; /* Borda levemente arredondada */
 }
-
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
@@ -48,15 +49,16 @@
     box-sizing: border-box; /* Incluir padding e border na largura total */
     border: none; /* Remover borda */
     border-radius: 5px; /* Borda levemente arredondada */
-    background-color: #ff8b51; /* Cor de fundo */
+    background-color: #d1ad9b; /* Cor de fundo */
     color: #ffffff; /* Cor do texto */
     cursor: pointer; /* Alterar cursor ao passar por cima */
     transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
 }
 
 .contact-form button:hover {
-    background-color: #ff773d; /* Cor de fundo mais escura ao passar o mouse */
-}
+    color: #000000; /* Cor de fundo mais escura ao passar o mouse */
+    font-size: 15px;
+}   
 
 .form-group {
     margin-bottom: 20px;
@@ -65,7 +67,7 @@
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #ff8b51; /* Cor laranja */
+    color: #000000; /* Cor laranja */
     font-weight: bold;
 }
 
@@ -73,7 +75,7 @@
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ff8b51; /* Cor laranja */
+    border: 1px solid #000000; /* Cor laranja */
     border-radius: 5px;
     background-color: #ffffff; /* Fundo branco */
     color: #000000; /* Cor preta */
@@ -86,7 +88,7 @@
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: #666666; /* Cor escura para o texto do placeholder */
+    color: #000000; /* Cor escura para o texto do placeholder */
 }
 
 .btn {
@@ -98,7 +100,7 @@
 }
 
 .btn.fill {
-    background-color: #ff8b51; /* Cor laranja */
+    background-color: #9ee9e5; /* Cor laranja */
     color: #ffffff; /* Cor branca */
 }
 

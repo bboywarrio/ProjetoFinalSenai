@@ -9,6 +9,7 @@ import Carrinho from '../Pages/Carrinho'; // Importe a página de carrinho
 import { Painel } from "../Pages/Administrador/Painel"
 import { PainelBase } from "../Pages/Administrador/PainelBase"
 import { Atualizar } from "../Pages/Administrador/Atualizar"
+import Trocas from '../Pages/Trocas/Trocas';
 
 
 function AppRoutes() {
@@ -24,6 +25,7 @@ function AppRoutes() {
         <Route path="/painel" element={<Painel />}/>
         <Route path="/adm321" element={<PainelBase />}/>
         <Route path="/atualizar/:id" element={<Atualizar />}/>
+        <Route path="/trocas" element={<Trocas />}/>
       </Routes>
     </BrowserRouter>
   );

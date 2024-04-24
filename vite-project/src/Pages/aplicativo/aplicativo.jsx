@@ -17,15 +17,22 @@ function Aplicativo ()
             <h1>Conheça o mais novo app</h1>
             
             <p> 
-            Hachipet é um aplicativo destinado a ONG’s e tutores que desejam realizar adoções 
-            <br/>ou reunir verbas para ajudar os animais em situação de abandono. 
+            Hachipet é o seu novo aplicativo favorito para cuidar
+            do seu bichinho! <br/>Encontre tudo o que seu pet precisa 
+            em um só lugar: alimentos, brinquedos, acessórios e
+            muito mais.<br/> Faça compras com facilidade e receba tudo 
+            na sua porta. Baixe agora e deixe seu pet feliz!
             <br/>
             
             <br/>
-            Ao baixar o aplicativo você pode conferir os animais disponíveis para adotar ou 
-            ajuda-los de alguma forma,<br/> basta entrar em contato pelo aplicativo. Você também pode encontrar 
-            algumas histórias emocionantes de pets<br/> que venceram o abandono e também conferir algumas 
-            dicas e cuidados para cuidar melhor dos seus bichinhos.
+            Ao baixar o aplicativo você terá, além da grande 
+            variedade de produtos e realizar compras rapidamente,  
+            poderá acompanhar<br/> promoções e descontos exclusivos 
+            economizando e cuidando do bem-estar do seu animal 
+            de estimação.<br/> Participará de programas de fidelidade 
+            e acesarrá conteúdos informativos de dicas úteis 
+            <br/>sobre o cuidado de seus animais, como: saúde, 
+            alimentação e comportamento.
             
             </p>
             </div>
@@ -57,17 +64,20 @@ function Aplicativo ()
         <div className='second'>
             <h1>Sobre o App</h1>
             <p>
-                O Hachipet foi criado de uma iniciativa  de
-                ajudar as ONG’s e tutores a <br/> terem um 
-                espaço mais amplo na internet e incentivar 
-                a adoção e cuidado dos usuários. <br/>Sua 
-                função é indicar os pets disponíveis para 
-                adoção e orientar os cuidados com dicas 
-                para a vida dos pets. <br/>O app conta também 
-                com uma aba de histórias de pets. Ao 
-                baixar você terá que fazer um breve 
-                <br/>cadastro que irá identificá-lo ao decorrer 
-                de sua navegabilidade.
+                O Hachipet nasceu da paixão pela saúde e 
+                felicidade dos nossos amigos peludos. Nossa 
+                iniciativa surgiu da<br/> necessidade de criar 
+                um espaço único, onde tutores e seus animais 
+                de estimação pudessem encontrar tudo o<br/> que 
+                precisam de forma fácil e rápida.
+                Ao longo do desenvolvimento do aplicativo, 
+                nosso foco principal foi <br/>proporcionar uma 
+                experiência completa e satisfatória para 
+                todos os amantes de pets. Desde a seleção 
+                cuidadosa<br/> dos produtos disponíveis até a 
+                oferta de conteúdos informativos, buscamos 
+                sempre o melhor para os nossos usuários e seus 
+                bichinhos.
                 <br/>
                 <br/>
                 O nome do aplicativo foi criado a partir 
@@ -106,7 +116,7 @@ function Aplicativo ()
                     <div className='user1'>
                     <img src={us1} width="150px" alt="" />
                         <p>
-                        “Eu encontrei meu melhor amigo nesse <br/> aplicativo, ele é muito amigável.”
+                        “Gostei dos produtos que o <br/> aplicativo tem, além da rapidez na entrega.”
 
                         <br/><strong>Jonas</strong>
                         </p>
@@ -124,7 +134,7 @@ function Aplicativo ()
                     <div className='user3'>
                         <img src={us3} width="150px" alt="" />
                             <p>
-                            “Sempre que posso eu ajudo algumas ONG’s <br/>financeiramente, mesmo não podendo ter animais.”
+                            “Sempre que posso eu ajudo algumas ONG’s <br/>comprando alimentos pelo aplicativo, <br /> mesmo não podendo ter animais.”
 
                             <br/><strong>Vânia</strong>
                             </p>

@@ -1,0 +1,13 @@
+.container-trocas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.trocas{
+    max-width: 1000px;
+    margin: 100px 0 100px 0;
+    border-radius: 10px;
+    padding: 20px;
+
+}
