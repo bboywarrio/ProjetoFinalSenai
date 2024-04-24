@@ -1,42 +1,68 @@
 /* Estilo do carrinho */
 .featured_carrinho {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 450px;
-}
-/* Estilo dos itens do carrinho */
-.cart-items {
-    width: 80%; /* Reduz a largura do carrinho */
-    margin: 20px ; /* Centraliza o carrinho na página */
-    width: 300px;
-    margin-bottom: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px; /* Espaçamento entre os itens */
     justify-content: center;
+    align-items: center;
+    background-color: #C4ECE9;
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
+/* Restante do seu código permanece igual */
 
-.cart-item {
-    width: 80%;
-    border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #f5f5f5;
-    padding: 14px;
+.Carrinhos-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+    
 }
 
-.cart-item img {
-    width: 90%;
+
+
+/* Estilo dos itens do carrinho */
+.cart-items {
+    width: 300px;
+    margin-bottom: 20px;
+    z-index: 998;
+    padding: 30px;
+}
+.cart-item{
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.carrinho-container {
+    display: flex; /* Adiciona flexbox */
+    justify-content: space-between; /* Alinha os itens lado a lado */
+    /* Restante do seu código permanece igual */
+}
+
+/* Restante do seu código permanece igual */
+
+.img-carrinho-card{
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 12px 12px 0 0;
+    
 }
-
 .cart-item p {
+    font-family: 'Righteous', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    text-align: center;
     margin: 5px 0;
+    
 }
 
 /* Estilo do botão "Adicionar ao Carrinho" */
@@ -71,7 +97,7 @@
 .button-wrapper button {
     border: none;
     padding: 8px 16px;
-    border-radius: 50%; /* Botões redondos */
+    border-radius: 25%; /* Botões redondos */
     font-size: 0.8rem;
     letter-spacing: 1px;
     cursor: pointer;
