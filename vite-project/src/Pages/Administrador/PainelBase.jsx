@@ -11,13 +11,14 @@ export function PainelBase()
     const navegar = useNavigate()
 
     useEffect(() => {
-        axios.get("http://localhost:3000/produtos")
+        axios.get("https://databasehachipet.onrender.com/produtos")
         .then(resp => setValor(resp.data))
         .catch(err => console.log(err))
     })
     return(
         <>
-        <div className="container"><br />
+        
+        <div className="container"><br /><h1>Painel de controle dos produtos</h1>
             <div className="text-end"><Link to="/Painel" className="btn btn-primary">Adicionar</Link> </div>
             <table className="table">
                 <thead>
@@ -25,7 +26,6 @@ export function PainelBase()
                         <th>Id</th>
                         <th>Nome</th>
                         <th>valor</th>
-                        <th>Detalhes</th>
                         <th>Foto</th>
                     </tr>
                 </thead>
@@ -37,11 +37,10 @@ export function PainelBase()
                         <td>{d.id}</td>
                         <td>{d.nome}</td>
                         <td>{d.valor}</td>
-                        <td>{d.detelhes}</td>
                         <td> <img className="fto" src={d.img}  /> </td>
                         <td>
-                        <Link to={`/atualizar/${d.id}`} className='btn btn-sm btn-success'>Atualizar</Link>
-                        <button onClick={e => hardSubmit(d.id)} className='btn btn-sm ms-5 btn-danger' >Excluir</button>
+                        <Link to={`/Atualizar/${d.id}`} className='btn btn-sm btn-danger'>Atualizar</Link>
+                        <button onClick={e => hardSubmit(d.id)} className='btn btn-sm ms-5 btn-sucess' >Excluir</button>
                         </td>
                     </tr>
                     ))
@@ -57,7 +56,7 @@ export function PainelBase()
         const conf = window.confirm("Deseja excluir esse registro??")
         if(conf)
         {
-            axios.delete("http://localhost:3000/produtos/"+id)
+            axios.delete("https://databasehachipet.onrender.com/produtos/"+id)
             .then(resp => {
                 alert("Dados excluidos com sucesso!!")
                 navegar("/adm321")

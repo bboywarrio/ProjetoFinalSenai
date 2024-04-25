@@ -12,7 +12,7 @@ export function Painel()
     function HandSubmit(event)
     {
         event.preventDefault()
-        axios.post("http://localhost:3000/produtos", inputData)
+        axios.post("https://databasehachipet.onrender.com/produtos/", inputData)
         .then(resposta => { 
             alert("Dados inseridos com sucesso!!")
             navegar("/adm321")
@@ -22,7 +22,7 @@ export function Painel()
 
     return(
         <>
-        <br /><h1 style={{textAlign: "center"}}>Painel de controle dos produtos</h1>
+        <br /><h1 style={{textAlign: "center"}}>Adicionar produtos</h1>
         <div className="d-flex w-100 vh-100 justify-content-center align-items-center">
            
            <div className="w-50 border bg-light p-5">
@@ -38,21 +38,11 @@ export function Painel()
                     onChange={e=>setInputData({...inputData, valor: e.target.value})} />
                 </div><br />
                 <div>
-                    <label htmlFor="descricao">Descrição</label><br />
-                    <input type="text" name="descricao" className="from-control"
-                    onChange={e=>setInputData({...inputData, descricao: e.target.value})} />
-                </div><br />
-                <div>
-                    <label htmlFor="tamanho">Tamanho</label><br />
-                    <input type="text" name="tamanho" className="from-control"
-                    onChange={e=>setInputData({...inputData, tamanho: e.target.value})} />
-                </div><br />
-                <div>
                     <label htmlFor="imagem">Imagem</label><br />
                     <input type="text" name="imagem" className="from-control"
                     onChange={e=>setInputData({...inputData, img: e.target.value})} />
                 </div><br />
-                <button className="btn btn-info" >Enviar</button>
+                <button className="btn btn-info" >Adicionar</button>
             </form>
             </div> 
            

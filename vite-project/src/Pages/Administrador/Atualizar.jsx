@@ -11,14 +11,15 @@ export function Atualizar()
     const navegar = useNavigate()
 
     useEffect(() => {
-        axios.get("http://localhost:3000/produtos/"+id)
+        axios.get("https://databasehachipet.onrender.com/produtos/"+id)
         .then(resp => setData(resp.data))
         .catch(err => console.log(err))
     })
+
     function HandSubmit(event)
     {
         event.preventDefault()
-        axios.put("http://localhost:3000/produtos/"+id, data)
+        axios.put("https://databasehachipet.onrender.com/produtos/"+id, data)
         .then(resp => { 
             alert("Dados atualizados com sucesso!!")
             navegar("/adm321")
@@ -45,21 +46,9 @@ export function Atualizar()
                 </div><br />
 
                 <div>
-                    <label htmlFor="tamanho">Tamanho</label><br />
-                    <input type="text" name="tamanho" defaultValue={data.tamanho} className="from-control"
-                    onChange={e=>setData({...data, tamanho: e.target.value})} />
-                </div><br />
-
-                <div>
                     <label htmlFor="name">Valor</label><br />
                     <input type="text" name="valor" defaultValue={data.valor} className="from-control"
                     onChange={e=>setData({...data, valor: e.target.value})} />
-                </div><br />
-
-                <div>
-                    <label htmlFor="descricao">Descrição</label><br />
-                    <input type="text" name="descricao" defaultValue={data.descricao} className="from-control"
-                    onChange={e=>setData({...data, descricao: e.target.value})} />
                 </div><br />
 
                 <div>
